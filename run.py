@@ -21,9 +21,9 @@ def contact():
     return render_template("contact.html")
 
 
-@app.route("/careers")
-def careers():
-    return render_template("careers.html")
+@app.route("/shop")
+def shop():
+    return render_template("shop.html")
 
 
 if __name__ == "__main__":
