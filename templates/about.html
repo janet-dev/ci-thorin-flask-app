@@ -11,16 +11,36 @@
     {% for tort in tortoises %}
 
         <div class="row featurette">
-            <div class="col-md-7">
-                <h3>{{ tort.name }}</h3>
-                <p>{{ tort.description }}</p>
-            </div>
-            <div class="col-md-5">
-                <img src="{{ tort.image_source }}" class="featurette-image image-responsive" alt="Pearl the tortoise">
-            </div>
+
+            {% if loop.index % 2 != 0 %}
+
+                <div class="col-md-7">
+                    <h3>{{ loop.index }}. {{ tort.name }}</h3>
+                    <p>{{ tort.description }}</p>
+                </div>
+                <div class="col-md-5">
+                    <img src="{{ tort.image_source }}" class="featurette-image image-responsive" alt="Pearl the tortoise">
+                </div>
+
+            {% else %}
+
+                <div class="col-md-5">
+                    <img src="{{ tort.image_source }}" class="featurette-image image-responsive" alt="Pearl the tortoise">
+                </div>
+                <div class="col-md-7">
+                    <h3>{{ loop.index }}. {{ tort.name }}</h3>
+                    <p>{{ tort.description }}</p>
+                </div>
+
+            {% endif %}
+
         </div>
 
-        <hr class="featurette-divider">
+        {% if loop.index != loop.length %}
+
+            <hr class="featurette-divider">
+
+        {% endif %}
 
     {% endfor %}
 
