@@ -2,16 +2,19 @@
     {
         "name": "Pearl and the Petals",
         "description": "Pearl is not a cuddler. She is more like the quirky, misunderstood heroine of an art-house film with a tough outer shell and a mushy center with a heart of gold. To be specific, she is a spurred African sulcata tortoise we picked up (quite literally) half a world away from her native Saharan motherland — in a leafy suburban neighborhood just south of Los Angeles.",
-        "image_source": "https://ca-times.brightspotcdn.com/dims4/default/92f10d2/2147483647/strip/true/crop/2048x1152+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2a%2Fcb%2F78aad65e0e4e9cc450b691c8ca96%2Fla-1503698846-jyzvlup8ui-snap-image"
+        "image_source": "https://ca-times.brightspotcdn.com/dims4/default/92f10d2/2147483647/strip/true/crop/2048x1152+0+0/resize/1200x675!/format/webp/quality/80/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2a%2Fcb%2F78aad65e0e4e9cc450b691c8ca96%2Fla-1503698846-jyzvlup8ui-snap-image",
+        "url": "pearl"
     },
     {
         "name": "Boris the Russian tortoise",
-        "description": "The Russian tortoise (Testudo horsfieldii), also commonly known as the Afghan tortoise, the Central Asian tortoise, Horsfield's tortoise, four-clawed tortoise, and the (Russian) steppe tortoise, is a threatened species of tortoise in the family Testudinidae. The species is endemic to Central Asia. Human activities in its native habitat contribute to its threatened status.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Testudo_horsfieldii%3B_Baikonur_001.jpg/1280px-Testudo_horsfieldii%3B_Baikonur_001.jpg"
+        "description": "Boris is a Russian or Horsfield tortoise and was imported legally as a hatchling from Uzbekistan. The Russian tortoise (Testudo horsfieldii), also commonly known as the Afghan tortoise, the Central Asian tortoise, Horsfield's tortoise, four-clawed tortoise, and the (Russian) steppe tortoise, is a threatened species of tortoise in the family Testudinidae. The species is endemic to Central Asia. Human activities in its native habitat contribute to its threatened status.",
+        "image_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Testudo_horsfieldii%3B_Baikonur_001.jpg/1280px-Testudo_horsfieldii%3B_Baikonur_001.jpg",
+        "url": "boris"
     },
     {
         "name": "Thorin the tortoise. Or turtle?",
         "description": "The American Society of Ichthyologists and Herpetologists uses 'turtle' to describe all species of the order Testudines, regardless of whether they are land-dwelling or sea-dwelling, and uses 'tortoise' as a more specific term for slow-moving terrestrial species. British usage, by contrast, tends not to use 'turtle' as a generic term for all members of the order, and also applies the term 'tortoises' broadly to all land-dwelling members of the order Testudines, regardless of whether they are actually members of the family Testudinidae. In Britain, terrapin is used to refer to a larger group of semiaquatic turtles than the restricted meaning in America.",
-        "image_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tile_al-Qazwini_Louvre_MAO1194.jpg/1024px-Tile_al-Qazwini_Louvre_MAO1194.jpg"
+        "image_source": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Tile_al-Qazwini_Louvre_MAO1194.jpg/1024px-Tile_al-Qazwini_Louvre_MAO1194.jpg",
+        "url": "thorin"
     }
 ]

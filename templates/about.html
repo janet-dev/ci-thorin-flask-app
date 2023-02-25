@@ -15,7 +15,7 @@
             {% if loop.index % 2 != 0 %}
 
                 <div class="col-md-7">
-                    <h3>{{ loop.index }}. {{ tort.name }}</h3>
+                    <h3><a href="/about/{{ tort.url }}">{{ loop.index }}. {{ tort.name }}</a></h3>
                     <p>{{ tort.description }}</p>
                 </div>
                 <div class="col-md-5">
@@ -28,7 +28,7 @@
                     <img src="{{ tort.image_source }}" class="featurette-image image-responsive" alt="Pearl the tortoise">
                 </div>
                 <div class="col-md-7">
-                    <h3>{{ loop.index }}. {{ tort.name }}</h3>
+                    <h3><a href="/about/{{ tort.url }}">{{ loop.index }}. {{ tort.name }}</a></h3>
                     <p>{{ tort.description }}</p>
                 </div>
 

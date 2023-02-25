@@ -20,6 +20,17 @@ def about():
     return render_template("about.html", page_title="About", tortoises=data)
 
 
+@app.route("/about/<tort_name>")
+def about_tort(tort_name):
+    tort = {}
+    with open("data/tortoises.json", "r") as json_data:
+        data = json.load(json_data)
+        for obj in data:
+            if obj["url"] == tort_name:
+                tort = obj
+    return render_template("tort.html", tort=tort)
+
+
 @app.route("/contact")
 def contact():
     return render_template("contact.html", page_title="Contact")
